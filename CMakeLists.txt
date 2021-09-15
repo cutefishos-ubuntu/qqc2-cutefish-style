@@ -18,3 +18,5 @@ include(KDEInstallDirs)
 
 install(DIRECTORY style/ DESTINATION ${KDE_INSTALL_QMLDIR}/QtQuick/Controls.2/Cutefish)
 install(DIRECTORY csd/ DESTINATION ${DATA_INSTALL_DIR}/org.mauikit.controls/csd/Cutefish)
+#install(FILES data/mauiproject.conf DESTINATION "$ENV{HOME}/.config/org.kde.maui")
+
